@@ -9,7 +9,7 @@ const NavLink = ({ children, ...delegated }) => {
     <MainText>
       {children}
     </MainText>
-    <HoverText>
+    <HoverText aria-hidden={true}>
       {children}
     </HoverText>
   </Wrapper>
